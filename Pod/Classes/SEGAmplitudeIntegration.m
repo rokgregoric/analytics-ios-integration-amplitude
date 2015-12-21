@@ -1,6 +1,15 @@
 #import "SEGAmplitudeIntegration.h"
 #import <Analytics/SEGAnalyticsUtils.h>
 #import <Analytics/SEGAnalytics.h>
+#import <Amplitude-iOS/Amplitude.h>
+
+
+@interface SEGAmplitudeIntegration ()
+
+@property (strong) Amplitude *amplitude;
+
+@end
+
 
 @implementation SEGAmplitudeIntegration
 
